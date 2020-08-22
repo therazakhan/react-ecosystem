@@ -6,6 +6,6 @@ export const createTodo = text => ({
 
 export const REMOVE_TODO = 'REMOVE_TODO';
 export const removeTodo = text => ({
-    action: REMOVE_TODO,
+    type: REMOVE_TODO,
     payload: { text }
 })
