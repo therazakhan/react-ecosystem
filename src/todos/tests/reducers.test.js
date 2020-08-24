@@ -18,4 +18,4 @@ describe('The todos reducer', () => {
         const actual = todos(originalState, fakeAction);
         expect(actual).to.deep.equal(expected);
     })
-})
+});
