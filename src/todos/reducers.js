@@ -43,6 +43,10 @@ export const todos = (state = [], action) => {
                 return todo;
             });
         }
+        case LOAD_TODOS_SUCCESS: {
+            const { todos } = payload;
+            return todos;
+        }
         default:
             return state;
     }
